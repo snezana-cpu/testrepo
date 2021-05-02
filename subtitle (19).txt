@@ -1,0 +1,66 @@
+Ok so this is the last video now, on the series
+'Git for Dummies'. So, I just want to show you how to fork a
+repository on github, how to commit to a forked repository and how to create a pull request. So lets consider you want to contribute to
+the very best and most important github repository on the planet. This is the coursera repository in the IBM
+organization which I’m maintaining, and lets assume you have found an error in one
+of those software components. I mean its impossible there is an error but
+just consider there is an error and you want to fix it. So what we can actually do is, you can either
+ask me to give you commit rights to that repository but its better if you just create a fork of
+this repository and then commit to your repository, to your fork and create a pull request. Let me show you how that works, so you see
+here 529 other folks already forked this repository. By the way just give me a star if you like,
+I want to have 1,000 stars soon! Here you can click on fork, and then it asks
+you where you want to fork it into. So this is in the IBM organization, and then
+I’m forking it into my private account. That means I will have a coursera repository
+in my account here, and you see here even its showing me 'forked from IBM/Coursera'
+Now I can change something, I can either make changes directly in here but to make it a
+bit more complicated, lets actually make the changes locally. So I clone it, oh I
+shouldn't forget to show you to add your RSA public key to the github repo, no, github
+system. But I will do it later, so now cloning this
+Coursera repository, this remote repository into my local repository. You see here again its in the 'romeokienzler'
+account, which is basically a copy of the official IBM one. I think we have to wait a bit because its
+quite huge, I should have set up two little test repositories but anyway, lets wait for
+that long. While we are waiting let me show you something
+else. That’s about the SSH keys, and now in our
+home folder, and in your home folder you have an SSH folder. I have already created the key so that’s
+a private key, never give it to anybody and never ever show it, the contents to anybody. And you create those and you can set a passphrase
+for the keys and I will put the commands for creating those into the description of this
+video. But that’s the public key that you can safely
+give to anybody and share with anybody. So I can also do that here, so I can show
+you the contents. So see, that’s the public key, and what
+I do is if I go to the github page, I have to go to, I think the account settings, SSH
+and GPG keys. You see here, here you have to add the key,
+so you can say new SSH key and you just paste the contents of the public key. And now I’m not doing that because I’ve
+already added it. But that’s all you need to do in github! And from now on you can use SSH because only
+you have the corresponding private key to that public key here therefore you can safely
+authenticate against github. So you also know this and I’m hoping that
+in the meanwhile, this other cloning is done. So go to coursera and lets have a look into
+that repository and so we have the readme for example, lets have a look at the readme. Maybe there is something I can improve on
+the readme. So
+this is the github project for the following coursera specialization. So lets put Coursera into a capital and save. Ok as you remember I need to say 'git add'
+and then if I say 'git status' the readme file is modified. I say ok, 'git commit'. I say now message and now it’s important
+since it’s a real repository I just can’t write a crap message. 'corrected little typo' and now I say git,
+push OK. So now the corrected readme is in my local
+repository and in the remote repository. But only in my private account, if I go to
+this repository here, so in my private account, then if I click on readme. So first of all you see here 21 seconds ago
+it has been changed. You see here the commit message 'corrected
+little typo'. And if you click on the readme you see here
+now the C is now capitalcase. Now I want to get this change back into the
+official repository IBM/Coursera. And you see here there is a contributor, so
+she also committed some stuff via pull request into the main repository so its straightforward. You can create a pull request easily here,
+on that button and then the difference between my repository and the official repository
+is just used and you see here the only difference is here the little typo correction and say
+create pull request. So that’s something I’m doing as a potential
+contributor and I say create pull request. So now I myself as I’m an administrator
+of the IBM repository, I will get an email and you see here I’m already forwarded (to
+the IBM repository) so let’s consider I am not Romeo, I am somebody else the administrator
+of the repository and here I see there is a pull request coming in and I will review
+it So I see ok someone fixed a little typo in my repository that’s something that I
+can definitely accept. So I say merge pull request, confirm merge
+and usually what I say is merged, thanks a lot, or so, to be polite to your contributors. Now here I’m in the Coursera repository
+and if you now click on readme you see here, there’s a capitalcase and that’s basically
+how it looks. Now here you see he commit and the commit
+message. And that’s basically all, so I hope this
+helped you a bit and with that knowledge you will survive around eighty percent of your
+git and github problems and work. If you have specific questions feel free to
+ask me in the discussion forum or in the comments below the video and thanks for watching and
+have a nice day! Bye! Thank you very much!
